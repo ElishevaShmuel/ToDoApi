@@ -86,6 +86,6 @@ app.MapDelete("/Items/{Id}", async (int Id, ToDoDbContext context1) =>
     return Results.NoContent();
 });
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
